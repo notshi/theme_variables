@@ -19,74 +19,87 @@
   --base05:rgba(0,0,0,1);
   
   
-  --abase15:#FAF9F9;
-  
-  --abase14:#A2C1C4;
-  --abase13:#91c0c5;
-  --abase12:#91c5b2;
-  --abase11:#61ad94;
-  
-  --abase:#4D9F7F;
-  
-  --abase01:#93A688;
-  --abase02:#87b48c; 
-  --abase03:#78b76f;
-  --abase04:#4b4b28;
-  
-  --abase05:#312D2A;
+  --abase15:#FFF;  
+  --abase15_40:rgba(255,255,255,0.4);
+  --abase15_10:rgba(255,255,255,0.1);
+  --abase14:#DADADA;
+  --abase13:#BDBDBD;
+  --abase12:#757575;
+  --abase12_40:rgba(117,117,117,0.4);
+  --abase11:#FA7348;
+  --abase:#FF5722; 
+  --abase01:#E64A19;
+  --abase02:#009688;
+  --abase02_80:rgba(0,150,136,0.8);
+  --abase02_60:rgba(0,150,136,0.6);
+  --abase02_40:rgba(0,150,136,0.4);
+  --abase02_20:rgba(0,150,136,0.2);
+  --abase03:#1E766E;
+  --abase03_80:rgba(30,118,110,0.8);
+  --abase03_60:rgba(30,118,110,0.6);
+  --abase03_40:rgba(30,118,110,0.4);
+  --abase03_20:rgba(30,118,110,0.2);
+  --abase04:#22504E;
+  --abase04_70:rgba(34,80,78,0.7);
+  --abase05:#212121;
+  --abase05_70:rgba(33,33,33,0.7);
+  --abase05_00:rgba(33,33,33);
 }
 
 
 body	{background-color:var(--base14); font-family:monospace, sans-serif; font-size:16px; line-height:24px; color:var(--base02); width:100%; padding:50px;}
 
-div {width:200px; height:60px; text-align:center; line-height:60px; color:var(--base05);}
+div		{width:200px; height:60px; margin:0 auto; text-align:center; line-height:60px; color:var(--base05);}
+.side	{display:inline-block; vertical-align:top; width:50%;}
 
-.b15  {background-color:var(--base15);}
-.b14  {background-color:var(--base14);}
-.b13  {background-color:var(--base13);}
-.b12  {background-color:var(--base12);}
-.b11  {background-color:var(--base11);}
-.b    {background-color:var(--base);}
-.b01  {background-color:var(--base01);}
-.b02  {background-color:var(--base02);}
-.b03  {background-color:var(--base03);}
-.b04  {background-color:var(--base04);}
-.b05  {background-color:var(--base05);}
+.b15	{background-color:var(--base15);}
+.b14	{background-color:var(--base14);}
+.b13	{background-color:var(--base13);}
+.b12  	{background-color:var(--base12);}
+.b11  	{background-color:var(--base11);}
+.b    	{background-color:var(--base);}
+.b01  	{background-color:var(--base01);}
+.b02  	{background-color:var(--base02);}
+.b03  	{background-color:var(--base03);}
+.b04  	{background-color:var(--base04);}
+.b05  	{background-color:var(--base05);}
 
-.ab15  {background-color:var(--abase15);}
-.ab14  {background-color:var(--abase14);}
-.ab13  {background-color:var(--abase13);}
-.ab12  {background-color:var(--abase12);}
-.ab11  {background-color:var(--abase11);}
-.ab    {background-color:var(--abase);}
-.ab01  {background-color:var(--abase01);}
-.ab02  {background-color:var(--abase02);}
-.ab03  {background-color:var(--abase03);}
-.ab04  {background-color:var(--abase04);}
-.ab05  {background-color:var(--abase05);}
+.ab15  	{background-color:var(--abase15);}
+.ab14  	{background-color:var(--abase14);}
+.ab13  	{background-color:var(--abase13);}
+.ab12  	{background-color:var(--abase12);}
+.ab11  	{background-color:var(--abase11);}
+.ab    	{background-color:var(--abase);}
+.ab01  	{background-color:var(--abase01);}
+.ab02  	{background-color:var(--abase02);}
+.ab03  	{background-color:var(--abase03);}
+.ab04  	{background-color:var(--abase04);}
+.ab05  	{background-color:var(--abase05);}
 
 </style></head>
-<body><div class="b15">base15</div>
-<div class="b14">base14</div>
-<div class="b13">base13</div>
-<div class="b12">base12</div>
-<div class="b11">base11</div>
-<div class="b">base</div>
-<div class="b01">base01</div>
-<div class="b02">base02</div>
-<div class="b03">base03</div>
-<div class="b04">base04</div>
-<div class="b05">base05</div>
-
-<div class="ab15">base15</div>
-<div class="ab14">base14</div>
-<div class="ab13">base13</div>
-<div class="ab12">base12</div>
-<div class="ab11">base11</div>
-<div class="ab">base</div>
-<div class="ab01">base01</div>
-<div class="ab02">base02</div>
-<div class="ab03">base03</div>
-<div class="ab04">base04</div>
-<div class="ab05">base05</div></body>
+<body><div class="side">
+    <div class="b15">base15</div>
+    <div class="b14">base14</div>
+    <div class="b13">base13</div>
+    <div class="b12">base12</div>
+    <div class="b11">base11</div>
+    <div class="b">base</div>
+    <div class="b01">base01</div>
+    <div class="b02">base02</div>
+    <div class="b03">base03</div>
+    <div class="b04">base04</div>
+    <div class="b05">base05</div>
+</div><div class="side">
+    <div class="ab15">base15</div>
+    <div class="ab14">base14</div>
+    <div class="ab13">base13</div>
+    <div class="ab12">base12</div>
+    <div class="ab11">base11</div>
+    <div class="ab">base</div>
+    <div class="ab01">base01</div>
+    <div class="ab02">base02</div>
+    <div class="ab03">base03</div>
+    <div class="ab04">base04</div>
+    <div class="ab05">base05</div>
+</div></body>
 </html>
