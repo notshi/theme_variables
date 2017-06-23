@@ -47,8 +47,9 @@
 
 body	{background-color:var(--base14); font-family:monospace, sans-serif; font-size:16px; line-height:24px; color:var(--base02); width:100%; padding:50px;}
 
-div		{width:200px; height:60px; margin:0 auto; text-align:center; line-height:60px; color:var(--base05);}
-.side	{display:inline-block; vertical-align:top; width:50%;}
+.side	{display:inline-block; vertical-align:top; width:50%; height:700px;}
+.side > div	{width:200px; height:60px; margin:0 auto; text-align:center; line-height:60px; color:var(--base05);}
+.max	{width:100%; margin:0 auto; text-align:center;}
 
 .b15	{background-color:var(--base15);}
 .b14	{background-color:var(--base14);}

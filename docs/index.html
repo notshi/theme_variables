@@ -49,8 +49,9 @@
 
 body	{background-color:var(--base14); font-family:monospace, sans-serif; font-size:16px; line-height:24px; color:var(--base02); width:100%; padding:50px;}
 
-div		{width:200px; height:60px; margin:0 auto; text-align:center; line-height:60px; color:var(--base05);}
-.side	{display:inline-block; vertical-align:top; width:50%;}
+.side	{display:inline-block; vertical-align:top; width:50%; height:700px;}
+.side > div	{width:200px; height:60px; margin:0 auto; text-align:center; line-height:60px; color:var(--base05);}
+.max	{width:100%; margin:0 auto; text-align:center;}
 
 .b15	{background-color:var(--base15);}
 .b14	{background-color:var(--base14);}
@@ -77,32 +78,33 @@ div		{width:200px; height:60px; margin:0 auto; text-align:center; line-height:60
 .ab05  	{background-color:var(--abase05);}
 
 </style></head>
-<body><div class="side">
-    <div class="b15">base15</div>
-    <div class="b14">base14</div>
-    <div class="b13">base13</div>
-    <div class="b12">base12</div>
-    <div class="b11">base11</div>
-    <div class="b">base</div>
-    <div class="b01">base01</div>
-    <div class="b02">base02</div>
-    <div class="b03">base03</div>
-    <div class="b04">base04</div>
-    <div class="b05">base05</div>
-</div><div class="side">
-    <div class="ab15">base15</div>
-    <div class="ab14">base14</div>
-    <div class="ab13">base13</div>
-    <div class="ab12">base12</div>
-    <div class="ab11">base11</div>
-    <div class="ab">base</div>
-    <div class="ab01">base01</div>
-    <div class="ab02">base02</div>
-    <div class="ab03">base03</div>
-    <div class="ab04">base04</div>
-    <div class="ab05">base05</div>
+<body><div class="max">
+    <div class="side">
+        <div class="b15">base15</div>
+        <div class="b14">base14</div>
+        <div class="b13">base13</div>
+        <div class="b12">base12</div>
+        <div class="b11">base11</div>
+        <div class="b">base</div>
+        <div class="b01">base01</div>
+        <div class="b02">base02</div>
+        <div class="b03">base03</div>
+        <div class="b04">base04</div>
+        <div class="b05">base05</div>
+    </div><div class="side">
+        <div class="ab15">base15</div>
+        <div class="ab14">base14</div>
+        <div class="ab13">base13</div>
+        <div class="ab12">base12</div>
+        <div class="ab11">base11</div>
+        <div class="ab">base</div>
+        <div class="ab01">base01</div>
+        <div class="ab02">base02</div>
+        <div class="ab03">base03</div>
+        <div class="ab04">base04</div>
+        <div class="ab05">base05</div>
+    </div>
 </div>
 
-<p>Example: <a href="http://d-portal.org/ctrack.html?search&rgba=orange_teal&sector_group=311&publisher=44000#view=act&aid=44000-P081567">orange_teal theme applied on SAVi</a></p>
-</body>
+<div class="max white">Example: <a href="http://d-portal.org/ctrack.html?search&rgba=orange_teal&sector_group=311&publisher=44000#view=act&aid=44000-P081567">orange_teal theme applied on SAVi</a></div></body>
 </html>
