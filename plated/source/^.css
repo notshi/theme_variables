@@ -18,4 +18,18 @@
 }
 
 
-body	{background:var(--base14); font-family:monospace, sans-serif; font-size:16px; line-height:24px; color:var(--base02); width:100%; padding:50px;}
+body	{background-color:var(--base14); font-family:monospace, sans-serif; font-size:16px; line-height:24px; color:var(--base02); width:100%; padding:50px;}
+
+div {width:200px; height:100px; text-align:center; padding:20px; line-height:100px; color:var(--base05);}
+
+.b15  {background-color:var(--base15);}
+.b14  {background-color:var(--base14);}
+.b13  {background-color:var(--base13);}
+.b12  {background-color:var(--base12);}
+.b11  {background-color:var(--base11);}
+.b    {background-color:var(--base);}
+.b01  {background-color:var(--base01);}
+.b02  {background-color:var(--base02);}
+.b03  {background-color:var(--base03);}
+.b04  {background-color:var(--base04);}
+.b05  {background-color:var(--base05);}
